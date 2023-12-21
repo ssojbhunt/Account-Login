@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Account-Login/static/css/main.1997c9f2.css",
+    "main.js": "/Account-Login/static/js/main.0574cb12.js",
+    "static/media/cas-bg-truck.jpg": "/Account-Login/static/media/cas-bg-truck.861850d2430bdfbb2f02.jpg",
+    "static/media/jbhunt360.png": "/Account-Login/static/media/jbhunt360.cdb5ec556378ec63510b.png",
+    "static/media/jbhunt-white-border.svg": "/Account-Login/static/media/jbhunt-white-border.219483362046535d1baf2e2bbdafcc6e.svg",
+    "static/media/bac.svg": "/Account-Login/static/media/bac.ae1afe7fa400fa38168d41e8c3a04afa.svg",
+    "index.html": "/Account-Login/index.html",
+    "static/media/pak.svg": "/Account-Login/static/media/pak.f272a9c133bc9867c3d2dc1ecaf7ceb1.svg",
+    "main.1997c9f2.css.map": "/Account-Login/static/css/main.1997c9f2.css.map",
+    "main.0574cb12.js.map": "/Account-Login/static/js/main.0574cb12.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1997c9f2.css",
+    "static/js/main.0574cb12.js"
+  ]
+}
