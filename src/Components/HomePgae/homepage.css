@@ -1,0 +1,36 @@
+.form_block {
+    border-radius: 0.5rem;
+    padding: 20px 30px 10px;
+    max-width: 370px;
+    margin: 0 auto;
+    background-color: white;
+    border: 1px solid rgba(0,0,0,.125);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.brandlink {
+    line-height: 0;
+}
+.brand-png {
+    height: 38px;
+    width: 171px;
+    padding: 5px;
+}
+.otherlink {
+    font-weight: 700;
+    text-decoration: none;
+    color: #007DBA;
+    margin-bottom: 16px;
+}
+/* Media */
+@media screen and (max-width:560px) {
+    .form_block {
+        border: none;
+        border-radius: 0;
+        max-width: none;
+        width: 100%;
+        padding: 16px;
+    }
+}
+

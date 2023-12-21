@@ -1,0 +1,10 @@
+header {
+    display: flex;
+    height: 52px;
+}
+/* Media */
+@media screen and (max-width:560px) {
+    header {
+        display: none;
+    }
+}

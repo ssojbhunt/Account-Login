@@ -1,0 +1,17 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 15px;
+    font-size: 10px;
+    row-gap: 16px;
+    text-align: center;
+    color: #fff;
+    font-weight: 400;
+    line-height: 1.5;
+}
+/* Media */
+@media screen and (max-width:560px) {
+    footer {
+        color: #000000;
+    }
+}

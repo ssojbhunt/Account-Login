@@ -1,0 +1,187 @@
+.form_box {
+   width: 100%;
+}
+.login {
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 20px;
+    color: #444444;
+    text-align: center;
+    margin: 0;
+}
+.inputBlock {
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   margin-top: 8px;
+}
+.inputBlock label {
+   font-size: 12px;
+   color: black;
+   margin-left: 0.5rem;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.inputBlock input {
+   position: relative;
+   border-width: 1px;
+   border-color: #444444;
+   border-radius: 0.5rem ;
+   width: 100%;
+   height: calc(1.5em + 0.75rem);
+   font-size: 16px;
+   padding: 6px 10px;
+   transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+   color: #495057;
+   outline: none;
+}
+.inputBlock input:focus {
+   box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+.userNameInputError {
+   background: #faeae9 none;
+   border-color: #dc3545!important;
+}
+.userNameInputError:focus {
+   background: white;
+   box-shadow: 0 0 0 0.2rem rgba(220,53,69,.25)!important;
+}
+.btn-next {
+   color: #fff;
+   background-color: #007DBA;
+   border: 1px solid #007DBA;
+   height: 36px;
+   width: 100%;
+   cursor: pointer;
+   text-decoration: none;
+   font-weight: 500;
+   font-size: 15px;
+   border-radius: 0.5rem;
+   margin: 8px 0 32px 0;
+   transition: all 300ms ease-out;
+}
+.btn-next:hover {
+   background-color: #005F8D;
+   border-color: #007DBA;
+   transition: all 300ms ease-in;
+}
+.btn-next:focus {
+   box-shadow: 0 0 0 0.2rem rgba(38,143,255,.5);
+}
+.btn-next:not(:disabled):not(.disabled).active, .btn-next:not(:disabled):not(.disabled):active, .show>.btn-next.dropdown-toggle {
+   color: #fff;
+   background-color: #0062cc;
+   border-color: #005cbf;
+}
+.errorText, .errorPassText {
+   visibility: hidden;
+   margin-left: 0.5rem;
+   font-size: 12px;
+   color: #dc3545;
+}
+.errorTextActive, .errorPassTextActive {
+   visibility: visible;
+   margin-left: 0.5rem;
+   font-size: 12px;
+   color: #dc3545;
+}
+.forgotPass {
+   margin-bottom: 16px;
+   text-align: center;
+}
+.userNameIsk {
+   margin-top: 8px;
+   margin-bottom: 8px;
+   font-weight: 500;
+   font-size: 16px;
+   text-align: center;
+   color: #444444;
+}
+.btns_blovk {
+   display: flex;
+   justify-content: space-between;
+   column-gap: 4px;
+   margin-bottom: 16px;
+}
+.btn-back {
+   border-radius: 0.5rem;
+   color: #007DBA;
+   background-color: #ffffff;
+   font-weight: bold;
+   font-size: 15px;
+   width: 100%;
+   height: 36px;
+   user-select: none;
+   border: 1px solid #007DBA;
+   padding: 0.375rem 0.75rem;
+   line-height: 1.5;
+   transition: all 300ms ease-out;
+   cursor: pointer;
+   box-shadow: none;
+}
+.btn-back:hover {
+   transition: all 300ms ease-in;
+   color: #005F8D;
+   background-color: #e5f2f8;
+   border-color: #007DBA;
+}
+.btn-back:focus {
+   box-shadow: 0 0 0 0.2rem rgba(130,138,145,.5);
+}
+.btn-back:not(:disabled):not(.disabled).active, .btn-back:not(:disabled):not(.disabled):active, .show>.btn-back.dropdown-toggle {
+   color: #fff;
+   background-color: #545b62;
+   border-color: #4e555b;
+}
+.btn-Login {
+   border-radius: 0.5rem;
+   color: #fff;
+   background-color: #007DBA;
+   border: 1px solid #007DBA;
+   font-weight: bold;
+   font-size: 15px;
+   width: 100%;
+   height: 36px;
+   user-select: none;
+   padding: 0.375rem 0.75rem;
+   line-height: 1.5;
+   transition: all 300ms ease-out;
+   cursor: pointer;
+   box-shadow: none;
+}
+.btn-Login:hover {
+   transition: all 300ms ease-in;
+   background-color: #005F8D;
+   border-color: #007DBA;
+}
+.btn-Login:focus {
+   box-shadow: 0 0 0 0.2rem rgba(38,143,255,.5);
+}
+.btn-Login:not(:disabled):not(.disabled).active, .btn-Login:not(:disabled):not(.disabled):active, .show>.btn-Login.dropdown-toggle {
+   background-color: #0062cc;
+   border-color: #005cbf;
+}
+.remember {
+   margin: 0 0 16px;
+   font-size: 14px;
+   color: #444444;
+}
+.remember label {
+   display: flex;
+   cursor: pointer;
+   width: max-content;
+   column-gap: 4px;
+}
+.eyeIcon {
+   line-height: 0;
+   display: flex;
+   align-items: center;
+   column-gap: 2px;
+   cursor: pointer;
+   margin-right: 0.5rem;
+}
+.eyeIcon img {
+   width: 18px;
+   height: 16px;
+}

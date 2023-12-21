@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html {
+    height: 100%;
+}
+body {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",
+    Arial,"Noto Sans",sans-serif,"Apple Color Emoji",
+    "Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    position: relative;
+    min-width: 320px;
+    min-height: 100vh;
+    margin: 0;
+    font-size: .875rem;
+    font-weight: 400;
+    line-height: 1.3125rem;
+    background-image: linear-gradient(90deg, rgba(0, 23, 41, .8), rgba(35, 96, 147, .8)), url(../../src/img/cas-bg-truck.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.AllPage {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/* Media */
+@media screen and (max-width:560px) {
+    body {
+        background-image: none;
+    }
+}
